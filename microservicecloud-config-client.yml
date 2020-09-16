@@ -27,4 +27,6 @@ spring:
 eureka:
   client:
     service-url:
+      register-with-eureka: true
+      fetch-registry: true
       defaultZone: http://eureka-test.com:7001/eureka/
